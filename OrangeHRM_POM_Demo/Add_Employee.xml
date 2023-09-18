@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Page Object test example">
+	<parameter name="appURL"
+		value="https://opensource-demo.orangehrmlive.com/web/index.php/auth/login" />
+	<parameter name="browserType" value="edge" />
+	<test name="test-4">
+		<classes>
+			<class name="com.orangeHRM.test.OrangeHRM_AddEmployee" />
+		</classes>
+	</test>
+</suite>

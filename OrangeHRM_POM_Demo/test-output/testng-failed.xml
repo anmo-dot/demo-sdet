@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Page Object test example]" guice-stage="DEVELOPMENT">
+  <parameter name="appURL" value="https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"/>
+  <parameter name="browserType" value="chrome"/>
+  <test name="test-1(failed)">
+    <classes>
+      <class name="com.orangeHRM.test.OrangeHRM_Login">
+        <methods>
+          <include name="initializeTestBaseSetup"/>
+          <include name="SetUp"/>
+          <include name="tearDown"/>
+          <include name="urlTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.orangeHRM.test.OrangeHRM_Login -->
+    </classes>
+  </test> <!-- test-1(failed) -->
+</suite> <!-- Failed suite [Page Object test example] -->
