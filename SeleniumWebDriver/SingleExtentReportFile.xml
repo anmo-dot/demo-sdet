@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="classes" thread-count="1">
+<listeners>
+	<listener class-name="pk.ExtentReport.Listeners"/>
+</listeners>
+	<test name="Test">
+		<classes>
+			<class name="com.WebOrder.WebOrder_Login_CreateOrder_VerifyOrder" />
+			<class name="com.WebOrder.WebOrder_Login_DataDrivenTest" />
+			<class name="com.WebOrder.WebTable_Pagination_Sort" />
+			<class name="com.WebOrder.WebOrder_UpdateOrder_VerifyOrder" />
+			<class name="com.WebOrder.WebOrder_Login_All_TCs_Example" />
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
