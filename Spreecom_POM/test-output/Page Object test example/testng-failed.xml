@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Page Object test example]" guice-stage="DEVELOPMENT">
+  <parameter name="appURL" value="https://demo.spreecommerce.org/"/>
+  <parameter name="browserType" value="chrome"/>
+  <test thread-count="5" name="test-1(failed)">
+    <classes>
+      <class name="com.spreecom.test.Spreecom_MenPage_Test">
+        <methods>
+          <include name="initializeTestBaseSetup"/>
+          <include name="validateText"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="SetUp"/>
+          <include name="validateWomenPage" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="validateTitle"/>
+        </methods>
+      </class> <!-- com.spreecom.test.Spreecom_MenPage_Test -->
+      <class name="com.spreecom.test.Spreecom_SportswearPage_Test">
+        <methods>
+          <include name="initializeTestBaseSetup"/>
+          <include name="validateTitle"/>
+          <include name="setUp"/>
+          <include name="SetUp"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="validateSportswearPage" invocation-numbers="0"/>
+          <include name="validateText"/>
+        </methods>
+      </class> <!-- com.spreecom.test.Spreecom_SportswearPage_Test -->
+      <class name="com.spreecom.test.Spreecom_WomenPage_Test">
+        <methods>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="validateTitle"/>
+          <include name="validateWomenPage" invocation-numbers="0"/>
+          <include name="SetUp"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="validateText"/>
+        </methods>
+      </class> <!-- com.spreecom.test.Spreecom_WomenPage_Test -->
+    </classes>
+  </test> <!-- test-1(failed) -->
+</suite> <!-- Failed suite [Page Object test example] -->
